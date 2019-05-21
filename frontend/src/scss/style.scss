@@ -1,0 +1,25 @@
+@import 'reset';
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    background-color: rgb(0, 238, 255)
+}
+
+li {
+    list-style: none;
+    display: flex;
+    width: 800px;
+    justify-content: space-between
+}
+
+ul {
+    border: 1px solid black
+}
+
+.buttons {
+    display: flex;
+}
